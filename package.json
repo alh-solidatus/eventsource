@@ -1,5 +1,5 @@
 {
-  "name": "eventsource",
+  "name": "@solidatus/eventsource",
   "version": "3.0.5-solidatus",
   "description": "WhatWG/W3C compliant EventSource client for Node.js and browsers",
   "sideEffects": false,
@@ -37,9 +37,12 @@
     "dist",
     "src"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git://git@github.com/EventSource/eventsource.git"
+    "url": "git+https://github.com/solidatus/eventsource.git"
   },
   "keywords": [
     "sse",
@@ -123,8 +126,5 @@
       "no-undef": "off",
       "no-empty": "off"
     }
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }
